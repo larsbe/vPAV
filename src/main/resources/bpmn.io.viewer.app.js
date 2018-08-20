@@ -437,7 +437,7 @@ function createIssueTable(bpmnFile, tableContent) {
 
                     var b = document.createElement("a");
                     b.appendChild(myText);
-                    b.setAttribute("onclick", "showPath('" + issue.id + "','" + x + "', '" + path_text + "')");
+                    b.setAttribute("onclick", "controller.showPath('" + issue.id + "','" + x + "', '" + path_text + "')");
                     b.setAttribute("href", "#");
 
                     myCell.appendChild(b);
